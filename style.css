@@ -1,0 +1,29 @@
+/*@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@900&family=Rokkitt:wght@900&display=swap');
+body{
+  overflow: hidden;
+  margin: 0;
+}
+.text1 {
+  position: absolute;
+  top: 3vh;
+  left: calc(50% - 50vh);
+  /*right: 4vw;*/
+}
+.text2 {
+  position: absolute;
+  bottom: 4vh;
+  left: 50%;
+  /*right: 4vw;*/
+}
+.retro {
+  font-family: "Roboto Slab";
+  font-size: 13vh;
+  display: block;
+  /*transform: rotate(-15deg) skew(-25deg);*/
+  color: #000;
+  text-shadow: -0.5vh 0 #8800aa, 0 0.5vh #8800aa, 0.5vh 0 #aa0088, 0 -0.5vh #aa0088;
+  /*-webkit-text-fill-color: #cc00cc; 
+  -webkit-text-stroke-width: 0.5vh;
+  -webkit-text-stroke-color: #ff0044;*/
+}
